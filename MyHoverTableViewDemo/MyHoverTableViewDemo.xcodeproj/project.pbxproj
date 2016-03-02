@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5385D11C85F279005BAA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D01C85F279005BAA37 /* main.m */; };
+		FA5385D41C85F279005BAA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D31C85F279005BAA37 /* AppDelegate.m */; };
+		FA5385D71C85F279005BAA37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D61C85F279005BAA37 /* ViewController.m */; };
+		FA5385DA1C85F279005BAA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5385D81C85F279005BAA37 /* Main.storyboard */; };
+		FA5385DC1C85F279005BAA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5385DB1C85F279005BAA37 /* Assets.xcassets */; };
+		FA5385DF1C85F279005BAA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5385DD1C85F279005BAA37 /* LaunchScreen.storyboard */; };
+		FA5385EA1C85F279005BAA37 /* MyHoverTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385E91C85F279005BAA37 /* MyHoverTableViewDemoTests.m */; };
+		FA5385F51C85F279005BAA37 /* MyHoverTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385F41C85F279005BAA37 /* MyHoverTableViewDemoUITests.m */; };
+		FA5386161C85F45C005BAA37 /* HoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5386151C85F45C005BAA37 /* HoverTableView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5385E61C85F279005BAA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5385C41C85F279005BAA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5385CB1C85F279005BAA37;
+			remoteInfo = MyHoverTableViewDemo;
+		};
+		FA5385F11C85F279005BAA37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5385C41C85F279005BAA37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5385CB1C85F279005BAA37;
+			remoteInfo = MyHoverTableViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5385CC1C85F279005BAA37 /* MyHoverTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHoverTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5385D01C85F279005BAA37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA5385D21C85F279005BAA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA5385D31C85F279005BAA37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA5385D51C85F279005BAA37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA5385D61C85F279005BAA37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA5385D91C85F279005BAA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5385DB1C85F279005BAA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5385DE1C85F279005BAA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5385E01C85F279005BAA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5385E51C85F279005BAA37 /* MyHoverTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoverTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5385E91C85F279005BAA37 /* MyHoverTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHoverTableViewDemoTests.m; sourceTree = "<group>"; };
+		FA5385EB1C85F279005BAA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5385F01C85F279005BAA37 /* MyHoverTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoverTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5385F41C85F279005BAA37 /* MyHoverTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHoverTableViewDemoUITests.m; sourceTree = "<group>"; };
+		FA5385F61C85F279005BAA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5386141C85F45C005BAA37 /* HoverTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverTableView.h; sourceTree = "<group>"; };
+		FA5386151C85F45C005BAA37 /* HoverTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5385C91C85F279005BAA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385E21C85F279005BAA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385ED1C85F279005BAA37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5385C31C85F279005BAA37 = {
+			isa = PBXGroup;
+			children = (
+				FA5385CE1C85F279005BAA37 /* MyHoverTableViewDemo */,
+				FA5385E81C85F279005BAA37 /* MyHoverTableViewDemoTests */,
+				FA5385F31C85F279005BAA37 /* MyHoverTableViewDemoUITests */,
+				FA5385CD1C85F279005BAA37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5385CD1C85F279005BAA37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5385CC1C85F279005BAA37 /* MyHoverTableViewDemo.app */,
+				FA5385E51C85F279005BAA37 /* MyHoverTableViewDemoTests.xctest */,
+				FA5385F01C85F279005BAA37 /* MyHoverTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5385CE1C85F279005BAA37 /* MyHoverTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA5385D21C85F279005BAA37 /* AppDelegate.h */,
+				FA5385D31C85F279005BAA37 /* AppDelegate.m */,
+				FA5385D51C85F279005BAA37 /* ViewController.h */,
+				FA5385D61C85F279005BAA37 /* ViewController.m */,
+				FA5385D81C85F279005BAA37 /* Main.storyboard */,
+				FA5386131C85F45C005BAA37 /* HoverTableView */,
+				FA5385DB1C85F279005BAA37 /* Assets.xcassets */,
+				FA5385DD1C85F279005BAA37 /* LaunchScreen.storyboard */,
+				FA5385E01C85F279005BAA37 /* Info.plist */,
+				FA5385CF1C85F279005BAA37 /* Supporting Files */,
+			);
+			path = MyHoverTableViewDemo;
+			sourceTree = "<group>";
+		};
+		FA5385CF1C85F279005BAA37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA5385D01C85F279005BAA37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA5385E81C85F279005BAA37 /* MyHoverTableViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5385E91C85F279005BAA37 /* MyHoverTableViewDemoTests.m */,
+				FA5385EB1C85F279005BAA37 /* Info.plist */,
+			);
+			path = MyHoverTableViewDemoTests;
+			sourceTree = "<group>";
+		};
+		FA5385F31C85F279005BAA37 /* MyHoverTableViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5385F41C85F279005BAA37 /* MyHoverTableViewDemoUITests.m */,
+				FA5385F61C85F279005BAA37 /* Info.plist */,
+			);
+			path = MyHoverTableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		FA5386131C85F45C005BAA37 /* HoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA5386141C85F45C005BAA37 /* HoverTableView.h */,
+				FA5386151C85F45C005BAA37 /* HoverTableView.m */,
+			);
+			path = HoverTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5385CB1C85F279005BAA37 /* MyHoverTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5385F91C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemo" */;
+			buildPhases = (
+				FA5385C81C85F279005BAA37 /* Sources */,
+				FA5385C91C85F279005BAA37 /* Frameworks */,
+				FA5385CA1C85F279005BAA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHoverTableViewDemo;
+			productName = MyHoverTableViewDemo;
+			productReference = FA5385CC1C85F279005BAA37 /* MyHoverTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5385E41C85F279005BAA37 /* MyHoverTableViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5385FC1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoTests" */;
+			buildPhases = (
+				FA5385E11C85F279005BAA37 /* Sources */,
+				FA5385E21C85F279005BAA37 /* Frameworks */,
+				FA5385E31C85F279005BAA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5385E71C85F279005BAA37 /* PBXTargetDependency */,
+			);
+			name = MyHoverTableViewDemoTests;
+			productName = MyHoverTableViewDemoTests;
+			productReference = FA5385E51C85F279005BAA37 /* MyHoverTableViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5385EF1C85F279005BAA37 /* MyHoverTableViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5385FF1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoUITests" */;
+			buildPhases = (
+				FA5385EC1C85F279005BAA37 /* Sources */,
+				FA5385ED1C85F279005BAA37 /* Frameworks */,
+				FA5385EE1C85F279005BAA37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5385F21C85F279005BAA37 /* PBXTargetDependency */,
+			);
+			name = MyHoverTableViewDemoUITests;
+			productName = MyHoverTableViewDemoUITests;
+			productReference = FA5385F01C85F279005BAA37 /* MyHoverTableViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5385C41C85F279005BAA37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = My;
+				TargetAttributes = {
+					FA5385CB1C85F279005BAA37 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FA5385E41C85F279005BAA37 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FA5385CB1C85F279005BAA37;
+					};
+					FA5385EF1C85F279005BAA37 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FA5385CB1C85F279005BAA37;
+					};
+				};
+			};
+			buildConfigurationList = FA5385C71C85F279005BAA37 /* Build configuration list for PBXProject "MyHoverTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5385C31C85F279005BAA37;
+			productRefGroup = FA5385CD1C85F279005BAA37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5385CB1C85F279005BAA37 /* MyHoverTableViewDemo */,
+				FA5385E41C85F279005BAA37 /* MyHoverTableViewDemoTests */,
+				FA5385EF1C85F279005BAA37 /* MyHoverTableViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5385CA1C85F279005BAA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5385DF1C85F279005BAA37 /* LaunchScreen.storyboard in Resources */,
+				FA5385DC1C85F279005BAA37 /* Assets.xcassets in Resources */,
+				FA5385DA1C85F279005BAA37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385E31C85F279005BAA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385EE1C85F279005BAA37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5385C81C85F279005BAA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5385D71C85F279005BAA37 /* ViewController.m in Sources */,
+				FA5385D41C85F279005BAA37 /* AppDelegate.m in Sources */,
+				FA5386161C85F45C005BAA37 /* HoverTableView.m in Sources */,
+				FA5385D11C85F279005BAA37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385E11C85F279005BAA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5385EA1C85F279005BAA37 /* MyHoverTableViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5385EC1C85F279005BAA37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5385F51C85F279005BAA37 /* MyHoverTableViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5385E71C85F279005BAA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5385CB1C85F279005BAA37 /* MyHoverTableViewDemo */;
+			targetProxy = FA5385E61C85F279005BAA37 /* PBXContainerItemProxy */;
+		};
+		FA5385F21C85F279005BAA37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5385CB1C85F279005BAA37 /* MyHoverTableViewDemo */;
+			targetProxy = FA5385F11C85F279005BAA37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5385D81C85F279005BAA37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5385D91C85F279005BAA37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5385DD1C85F279005BAA37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5385DE1C85F279005BAA37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5385F71C85F279005BAA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA5385F81C85F279005BAA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5385FA1C85F279005BAA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHoverTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA5385FB1C85F279005BAA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyHoverTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA5385FD1C85F279005BAA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHoverTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHoverTableViewDemo.app/MyHoverTableViewDemo";
+			};
+			name = Debug;
+		};
+		FA5385FE1C85F279005BAA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyHoverTableViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHoverTableViewDemo.app/MyHoverTableViewDemo";
+			};
+			name = Release;
+		};
+		FA5386001C85F279005BAA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyHoverTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyHoverTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA5386011C85F279005BAA37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyHoverTableViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyHoverTableViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5385C71C85F279005BAA37 /* Build configuration list for PBXProject "MyHoverTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5385F71C85F279005BAA37 /* Debug */,
+				FA5385F81C85F279005BAA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5385F91C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5385FA1C85F279005BAA37 /* Debug */,
+				FA5385FB1C85F279005BAA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA5385FC1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5385FD1C85F279005BAA37 /* Debug */,
+				FA5385FE1C85F279005BAA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA5385FF1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5386001C85F279005BAA37 /* Debug */,
+				FA5386011C85F279005BAA37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5385C41C85F279005BAA37 /* Project object */;
+}
