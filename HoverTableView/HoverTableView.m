@@ -23,6 +23,8 @@
         return;
     if(_hoverMaxHeight <= 0)
         _hoverMaxHeight = DEFAULT_HOVER_MAXHEIGHT;
+    if(_hoverMinHeight <= 0)
+        _hoverMinHeight = DEFAULT_HOVER_MINHEIGHT;
     CGRect rect = CGRectMake(_hoverView.frame.origin.x, _hoverMaxHeight, _hoverView.frame.size.width, _hoverView.frame.size.height);
     _hoverView.frame = rect;
     [self.superview addSubview:_hoverView];
@@ -33,8 +35,8 @@
     if([keyPath isEqualToString:@"contentOffset"]){
         if(_hoverView){
             CGFloat hoverHeight;
-            if(self.contentOffset.y > _hoverMaxHeight)
-                hoverHeight = 0;
+            if(self.contentOffset.y > _hoverMaxHeight - _hoverMinHeight)
+                hoverHeight = _hoverMinHeight;
             else
                 hoverHeight = _hoverMaxHeight - self.contentOffset.y;
             CGRect rect = CGRectMake(_hoverView.frame.origin.x, hoverHeight, _hoverView.frame.size.width, _hoverView.frame.size.height);

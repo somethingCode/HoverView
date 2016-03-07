@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1E0B8E1C86D471003EADD6 /* HoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0B8D1C86D471003EADD6 /* HoverTableView.m */; };
+		FA1E0B921C86EBFB003EADD6 /* TableViewCellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0B901C86EBFB003EADD6 /* TableViewCellOne.m */; };
+		FA1E0B931C86EBFB003EADD6 /* TableViewCellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0B911C86EBFB003EADD6 /* TableViewCellOne.xib */; };
+		FA1E0B971C86EC10003EADD6 /* TableViewCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0B951C86EC10003EADD6 /* TableViewCellTwo.m */; };
+		FA1E0B981C86EC10003EADD6 /* TableViewCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0B961C86EC10003EADD6 /* TableViewCellTwo.xib */; };
 		FA5385D11C85F279005BAA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D01C85F279005BAA37 /* main.m */; };
 		FA5385D41C85F279005BAA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D31C85F279005BAA37 /* AppDelegate.m */; };
 		FA5385D71C85F279005BAA37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385D61C85F279005BAA37 /* ViewController.m */; };
@@ -15,7 +20,6 @@
 		FA5385DF1C85F279005BAA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5385DD1C85F279005BAA37 /* LaunchScreen.storyboard */; };
 		FA5385EA1C85F279005BAA37 /* MyHoverTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385E91C85F279005BAA37 /* MyHoverTableViewDemoTests.m */; };
 		FA5385F51C85F279005BAA37 /* MyHoverTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5385F41C85F279005BAA37 /* MyHoverTableViewDemoUITests.m */; };
-		FA5386161C85F45C005BAA37 /* HoverTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5386151C85F45C005BAA37 /* HoverTableView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1E0B8C1C86D471003EADD6 /* HoverTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverTableView.h; sourceTree = "<group>"; };
+		FA1E0B8D1C86D471003EADD6 /* HoverTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverTableView.m; sourceTree = "<group>"; };
+		FA1E0B8F1C86EBFB003EADD6 /* TableViewCellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellOne.h; sourceTree = "<group>"; };
+		FA1E0B901C86EBFB003EADD6 /* TableViewCellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellOne.m; sourceTree = "<group>"; };
+		FA1E0B911C86EBFB003EADD6 /* TableViewCellOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellOne.xib; sourceTree = "<group>"; };
+		FA1E0B941C86EC10003EADD6 /* TableViewCellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellTwo.h; sourceTree = "<group>"; };
+		FA1E0B951C86EC10003EADD6 /* TableViewCellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTwo.m; sourceTree = "<group>"; };
+		FA1E0B961C86EC10003EADD6 /* TableViewCellTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellTwo.xib; sourceTree = "<group>"; };
 		FA5385CC1C85F279005BAA37 /* MyHoverTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHoverTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5385D01C85F279005BAA37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA5385D21C85F279005BAA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +64,6 @@
 		FA5385F01C85F279005BAA37 /* MyHoverTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoverTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5385F41C85F279005BAA37 /* MyHoverTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHoverTableViewDemoUITests.m; sourceTree = "<group>"; };
 		FA5385F61C85F279005BAA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5386141C85F45C005BAA37 /* HoverTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoverTableView.h; sourceTree = "<group>"; };
-		FA5386151C85F45C005BAA37 /* HoverTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoverTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +91,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1E0B8B1C86D471003EADD6 /* HoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0B8C1C86D471003EADD6 /* HoverTableView.h */,
+				FA1E0B8D1C86D471003EADD6 /* HoverTableView.m */,
+			);
+			name = HoverTableView;
+			path = ../HoverTableView;
+			sourceTree = "<group>";
+		};
 		FA5385C31C85F279005BAA37 = {
 			isa = PBXGroup;
 			children = (
+				FA1E0B8B1C86D471003EADD6 /* HoverTableView */,
 				FA5385CE1C85F279005BAA37 /* MyHoverTableViewDemo */,
 				FA5385E81C85F279005BAA37 /* MyHoverTableViewDemoTests */,
 				FA5385F31C85F279005BAA37 /* MyHoverTableViewDemoUITests */,
@@ -109,7 +130,12 @@
 				FA5385D51C85F279005BAA37 /* ViewController.h */,
 				FA5385D61C85F279005BAA37 /* ViewController.m */,
 				FA5385D81C85F279005BAA37 /* Main.storyboard */,
-				FA5386131C85F45C005BAA37 /* HoverTableView */,
+				FA1E0B8F1C86EBFB003EADD6 /* TableViewCellOne.h */,
+				FA1E0B901C86EBFB003EADD6 /* TableViewCellOne.m */,
+				FA1E0B911C86EBFB003EADD6 /* TableViewCellOne.xib */,
+				FA1E0B941C86EC10003EADD6 /* TableViewCellTwo.h */,
+				FA1E0B951C86EC10003EADD6 /* TableViewCellTwo.m */,
+				FA1E0B961C86EC10003EADD6 /* TableViewCellTwo.xib */,
 				FA5385DB1C85F279005BAA37 /* Assets.xcassets */,
 				FA5385DD1C85F279005BAA37 /* LaunchScreen.storyboard */,
 				FA5385E01C85F279005BAA37 /* Info.plist */,
@@ -142,15 +168,6 @@
 				FA5385F61C85F279005BAA37 /* Info.plist */,
 			);
 			path = MyHoverTableViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		FA5386131C85F45C005BAA37 /* HoverTableView */ = {
-			isa = PBXGroup;
-			children = (
-				FA5386141C85F45C005BAA37 /* HoverTableView.h */,
-				FA5386151C85F45C005BAA37 /* HoverTableView.m */,
-			);
-			path = HoverTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,9 @@
 			files = (
 				FA5385DF1C85F279005BAA37 /* LaunchScreen.storyboard in Resources */,
 				FA5385DC1C85F279005BAA37 /* Assets.xcassets in Resources */,
+				FA1E0B931C86EBFB003EADD6 /* TableViewCellOne.xib in Resources */,
 				FA5385DA1C85F279005BAA37 /* Main.storyboard in Resources */,
+				FA1E0B981C86EC10003EADD6 /* TableViewCellTwo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1E0B971C86EC10003EADD6 /* TableViewCellTwo.m in Sources */,
+				FA1E0B921C86EBFB003EADD6 /* TableViewCellOne.m in Sources */,
 				FA5385D71C85F279005BAA37 /* ViewController.m in Sources */,
 				FA5385D41C85F279005BAA37 /* AppDelegate.m in Sources */,
-				FA5386161C85F45C005BAA37 /* HoverTableView.m in Sources */,
+				FA1E0B8E1C86D471003EADD6 /* HoverTableView.m in Sources */,
 				FA5385D11C85F279005BAA37 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -426,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyHoverTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyHoverTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.D.MyHoverTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +533,7 @@
 				FA5385FB1C85F279005BAA37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5385FC1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +542,7 @@
 				FA5385FE1C85F279005BAA37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA5385FF1C85F279005BAA37 /* Build configuration list for PBXNativeTarget "MyHoverTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				FA5386011C85F279005BAA37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
