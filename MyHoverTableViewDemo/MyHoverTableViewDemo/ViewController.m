@@ -17,7 +17,7 @@
 #define CELL_TWO 1
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
-    HoverTableView *mHoverTableView;
+    __weak IBOutlet HoverTableView *mHoverTableView;
     NSArray *dataOne;
     NSArray *dataTwo;
     NSArray *data;
@@ -46,7 +46,7 @@
 }
 
 - (void)initView {
-    mHoverTableView = [[HoverTableView alloc]init];
+//    mHoverTableView = [[HoverTableView alloc]init];
     mHoverTableView.frame = CGRectMake(0, 0, PHONE_WIDTH, PHONE_HEIGHT);
     mHoverTableView.delegate = self;
     mHoverTableView.dataSource = self;
@@ -58,6 +58,7 @@
     view.backgroundColor = [UIColor lightGrayColor];
     UIView *headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, PHONE_WIDTH, 300)];
     headView.backgroundColor = [UIColor redColor];
+    headView.alpha = 0.5;
     
     UIButton *button1 = [UIButton buttonWithType:UIButtonTypeSystem];
     
@@ -74,11 +75,16 @@
     [button2 addTarget:self action:@selector(changeToDataTwo) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:button2];
     
+    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"back_image"]];
+    
     mHoverTableView.tableHeaderView = headView;
     mHoverTableView.hoverView = view;
+    mHoverTableView.tableheadViewBackView = imageView;
     mHoverTableView.hoverMaxHeight = 220;
     mHoverTableView.hoverMinHeight = 20;
-    [self.view addSubview:mHoverTableView];
+    [mHoverTableView beginHoverState];
+//    [self.view addSubview:mHoverTableView];
+    NSLog(@"initView");
 }
 
 - (void)didReceiveMemoryWarning {

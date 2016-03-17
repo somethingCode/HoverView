@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HoverView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A HoverView to make hover like sina."
 
   # This description is used to generate tags and improve search results.
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "somethingCode" => "" }
+  s.author             = { "somethingCode" => "sen23@126.com" }
   # Or just: s.author    = "somethingCode"
   # s.authors            = { "somethingCode" => "" }
   # s.social_media_url   = "http://twitter.com/somethingCode"
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/somethingCode/HoverView.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/somethingCode/HoverView.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

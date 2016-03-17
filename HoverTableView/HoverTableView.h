@@ -13,6 +13,10 @@
 @interface HoverTableView : UITableView
 
 @property(nonatomic,strong)UIView *hoverView;
+@property(nonatomic,strong)UIView *tableheadViewBackView;
 @property(nonatomic,assign)CGFloat hoverMaxHeight;
 @property(nonatomic,assign)CGFloat hoverMinHeight;
+
+-(void)beginHoverState;
+
 @end
