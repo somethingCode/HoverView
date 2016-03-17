@@ -27,7 +27,6 @@
 }
 
 -(void)didMoveToSuperview{
-    NSLog(@"didMoveToSuperview");
     [self beginHoverState];
 }
 
