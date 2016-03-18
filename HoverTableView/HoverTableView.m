@@ -27,20 +27,20 @@
 }
 
 -(void)didMoveToSuperview{
-    [self beginHoverState];
+//    [self beginHoverState];
 }
 
 -(void)beginHoverState{
     if(!_hoverView)
         return;
-    if(_hoverMaxHeight <= 0)
-        _hoverMaxHeight = DEFAULT_HOVER_MAXHEIGHT;
-    if(_hoverMinHeight <= 0)
-        _hoverMinHeight = DEFAULT_HOVER_MINHEIGHT;
+    if(_hoverStartOffsetY <= 0)
+        _hoverStartOffsetY = DEFAULT_HOVER_START_OFFSETY;
+    if(_hoverTopOffsetY <= 0)
+        _hoverTopOffsetY = DEFAULT_HOVER_TOP_OFFSETY;
     
-    _hoverView.frame = CGRectMake(_hoverView.frame.origin.x, _hoverMaxHeight, _hoverView.frame.size.width, _hoverView.frame.size.height);
+    _hoverView.frame = CGRectMake(_hoverView.frame.origin.x, _hoverStartOffsetY, _hoverView.frame.size.width, _hoverView.frame.size.height);
     if(_tableheadViewBackView){
-        _tableheadViewBackView.frame = CGRectMake(_hoverView.frame.origin.x, _hoverMinHeight, _hoverView.frame.size.width, _hoverMaxHeight - _hoverMinHeight);
+        _tableheadViewBackView.frame = CGRectMake(_hoverView.frame.origin.x, _hoverTopOffsetY, _hoverView.frame.size.width, _hoverStartOffsetY - _hoverTopOffsetY);
         [self.superview addSubview:_tableheadViewBackView];
         [self.superview sendSubviewToBack:_tableheadViewBackView];
         self.backgroundColor = [UIColor clearColor];
@@ -53,14 +53,14 @@
     if([keyPath isEqualToString:@"contentOffset"]){
         if(_hoverView){
             CGFloat hoverHeight;
-            if(self.contentOffset.y > _hoverMaxHeight - _hoverMinHeight)
-                hoverHeight = _hoverMinHeight;
+            if(self.contentOffset.y > _hoverStartOffsetY - _hoverTopOffsetY)
+                hoverHeight = _hoverTopOffsetY;
             else
-                hoverHeight = _hoverMaxHeight - self.contentOffset.y;
+                hoverHeight = _hoverStartOffsetY - self.contentOffset.y;
             CGRect rect = CGRectMake(_hoverView.frame.origin.x, hoverHeight, _hoverView.frame.size.width, _hoverView.frame.size.height);
             _hoverView.frame = rect;
             if(_tableheadViewBackView)
-                _tableheadViewBackView.frame = CGRectMake(rect.origin.x, _hoverMinHeight, rect.size.width, rect.origin.y - _hoverMinHeight);
+                _tableheadViewBackView.frame = CGRectMake(rect.origin.x, _hoverTopOffsetY, rect.size.width, rect.origin.y - _hoverTopOffsetY);
         }
     }
 }

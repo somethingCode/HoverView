@@ -16,27 +16,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FVH-fS-XKk" customClass="HoverTableView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="s5P-Bc-uBR"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MWC-n1-dHr"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FVH-fS-XKk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="29d-t4-usb"/>
-                            <constraint firstAttribute="trailing" secondItem="FVH-fS-XKk" secondAttribute="trailing" id="7nW-G8-i55"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FVH-fS-XKk" secondAttribute="bottom" id="9jF-37-bgC"/>
-                            <constraint firstItem="FVH-fS-XKk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ePo-4T-g7X"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="mHoverTableView" destination="FVH-fS-XKk" id="Dko-5g-JMM"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

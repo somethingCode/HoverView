@@ -17,7 +17,7 @@
 #define CELL_TWO 1
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
-    __weak IBOutlet HoverTableView *mHoverTableView;
+    HoverTableView *mHoverTableView;
     NSArray *dataOne;
     NSArray *dataTwo;
     NSArray *data;
@@ -46,7 +46,7 @@
 }
 
 - (void)initView {
-//    mHoverTableView = [[HoverTableView alloc]init];
+    mHoverTableView = [[HoverTableView alloc]init];
     mHoverTableView.frame = CGRectMake(0, 0, PHONE_WIDTH, PHONE_HEIGHT);
     mHoverTableView.delegate = self;
     mHoverTableView.dataSource = self;
@@ -80,10 +80,10 @@
     mHoverTableView.tableHeaderView = headView;
     mHoverTableView.hoverView = view;
     mHoverTableView.tableheadViewBackView = imageView;
-    mHoverTableView.hoverMaxHeight = 220;
-    mHoverTableView.hoverMinHeight = 20;
+    mHoverTableView.hoverStartOffsetY = 220;
+    mHoverTableView.hoverTopOffsetY = 20;
+    [self.view addSubview:mHoverTableView];
     [mHoverTableView beginHoverState];
-//    [self.view addSubview:mHoverTableView];
     NSLog(@"initView");
 }
 
